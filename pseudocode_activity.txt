@@ -1,0 +1,20 @@
+Pseudocode Activity - Samiyah 
+
+1. Set alarm time:
+      -what time do we want the alarm to go off
+      -format the time correctly, hours:minutes
+      -indicate AM or PM
+      -what days of the week do we want our alarm to go off
+
+2. If the current time is equal to the time the alarm is supposed to go off
+   2a. Alarm will sound
+   2a. Ask user if they want to stop or snooze the alarm
+       2a.1. If the user snoozes, turn off alarm for 10 minutes, then alarm goes off again.
+          Then ask the user again if they want to snooze or stop and check to see if user has snoozed less than 3 times.
+   2a.1a. If the user has snoozed less than 3 times, then allow user to snooze.
+        (loop)
+   2a.2a. If user has snoozed 3 or more times, then alarm will keep ringing until user tells it to stop.
+   2a.2. If the user stops, then the alarm will stop ringing.
+
+3. If the current time is NOT equal to the time the alarm is supposed to go off:
+   3a. Alarm wont go off.
